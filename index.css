@@ -1,0 +1,78 @@
+.navbar {
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    padding: 10px;
+    color: black;
+}
+
+.navbar a {
+    color: skyblue;
+    font-size: large;
+    font-weight: 500;
+}
+
+.navbar h2 {
+    color: skyblue;
+    font-size: x-large;
+    font-weight: 800;
+    margin-right: 30px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px;
+    margin: 15px 37%;
+    background-image: linear-gradient(-45deg, #7e87f1, #293fab, #220d5b);
+    border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    background-size: 400% 400%;
+    animation: mymove 10s linear infinite;
+}
+
+@keyframes mymove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card {
+    border: 2px solid;
+    color: aliceblue;
+    box-shadow: 4px 4px 4px !important;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.cel span {
+    color: aliceblue;
+}
+
+#km-hr {
+    color: aliceblue;
+}
+
+#perc {
+    color: aliceblue;
+}
+
+.card-header {
+    font-weight: 500;
+}
